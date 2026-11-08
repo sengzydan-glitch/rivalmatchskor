@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#111315">
+  <title>Rival PAPAN SKOR</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <div class="brand-mark" aria-hidden="true">●</div>
+      <div>
+        <p class="eyebrow">MATCH CONTROL</p>
+        <h1>RIVAL <span>MATCHSCORE</span></h1>
+      </div>
+      <div class="live-indicator"><span></span> LIVE</div>
+    </header>
+
+    <section class="scoreboards" aria-label="Papan skor">
+      <article class="score-card player-one" data-player="1">
+        <div class="card-topline">
+          <span class="player-label">PLAYER 01</span>
+          <span class="status-dot" aria-hidden="true"></span>
+        </div>
+        <button class="score-button" type="button" aria-label="Tambah skor Pemain 1">
+          <span class="player-name" id="name-1">PLAYER ONE</span>
+          <span class="score" id="score-1">0</span>
+          <span class="tap-hint">KETUK UNTUK TAMBAH POIN</span>
+        </button>
+      </article>
+
+      <article class="score-card player-two" data-player="2">
+        <div class="card-topline">
+          <span class="player-label">PLAYER 02</span>
+          <span class="status-dot" aria-hidden="true"></span>
+        </div>
+        <button class="score-button" type="button" aria-label="Tambah skor Pemain 2">
+          <span class="player-name" id="name-2">PLAYER TWO</span>
+          <span class="score" id="score-2">0</span>
+          <span class="tap-hint">KETUK UNTUK TAMBAH POIN</span>
+        </button>
+      </article>
+    </section>
+
+    <section class="controls" aria-label="Kontrol papan skor">
+      <div class="control-heading">
+        <span class="eyebrow">MATCH SETTINGS</span>
+        <span class="control-line"></span>
+      </div>
+      <div class="control-buttons">
+        <button class="action-button edit-button" id="edit-1" type="button">
+          <span class="button-icon">✎</span>
+          EDIT NAMA 1
+        </button>
+        <button class="action-button edit-button" id="edit-2" type="button">
+          <span class="button-icon">✎</span>
+          EDIT NAMA 2
+        </button>
+        <button class="action-button reset-button" id="reset" type="button">
+          <span class="button-icon">↻</span>
+          RESET SKOR
+        </button>
+      </div>
+      <p class="footer-note">NEON TABLE SERIES <span>•</span> SCORE TRACKER</p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
+y>
+</html>
